@@ -30,7 +30,7 @@ export default function YouTubeSection() {
             <PlayCircle className="text-red-500" size={18} />
 
             <span className="text-red-400 uppercase tracking-[3px] text-xs">
-              YouTube
+              YouTube | Tech Talks
             </span>
           </div>
 
@@ -39,11 +39,11 @@ export default function YouTubeSection() {
             <span className="text-red-500"> Videos</span>
           </h2>
 
-          <p className="text-gray-400 max-w-2xl mx-auto mt-5 leading-8">
+          {/* <p className="text-gray-400 max-w-2xl mx-auto mt-5 leading-8 text-left">
             I regularly publish videos about Laravel,
             Backend Development, System Design,
             Software Engineering and Career.
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Loading */}
