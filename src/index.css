@@ -148,3 +148,14 @@ button {
     line-height: 1;
   }
 }
+
+
+/* Chrome, Safari */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}

@@ -138,6 +138,31 @@ const portfolioData = {
     },
 
     {
+      title: "Enterprise HRMS Platform | STITBD",
+      image: "/projects/hrms.png",
+      description:
+        "Enhanced and customized enterprise HRMS modules including Leave Management, Attendance, Payroll, and Requisition workflows. Implemented GPS-based attendance tracking, payroll automation, REST API integrations, backend optimization, and role-based access control while maintaining stability in production environments.",
+
+      technologies: [
+        "CodeIgniter3",
+        "MySQL",
+        "REST API",
+      ],
+
+      github: '#',
+
+      live: "https://stithr.com/",
+
+      live_status: true,
+
+      github_status: false,
+
+      caseStudy: "https://www.linkedin.com/pulse/building-enhancing-enterprise-hrms-platform-mridul-kar-16lwc/",
+
+      caseStudy_status: true
+    },
+
+    {
       title: "SaaS Skull | Personal Project",
       image: "/projects/saasskull.jpg",
 
@@ -222,6 +247,56 @@ const portfolioData = {
     },
   ],
 
+  otherProjects: [
+    {
+      title: "E-Commerce Platform",
+      tech: ["Laravel", "MySQL"],
+      modules: [
+        "Product Management",
+        "Cart",
+        "Order",
+        "Inventory",
+        "Payment Gateway",
+      ],
+      links: [
+        {
+          name: "TipTop Mart",
+          url: "https://tiptopmartbd.com/",
+        },
+        {
+          name: "ES Trading",
+          url: "https://estradingbd.com/",
+        },
+      ],
+    },
+
+    {
+      title: "POS",
+      tech: ["Laravel", "MySQL"],
+      modules: [
+        "Sales",
+        "Purchase",
+        "Customer",
+        "Supplier",
+        "Stock Management",
+        "Reports",
+      ],
+      industry: [
+        "Retail",
+        "SuperShop",
+        "Restaurant",
+        "Pharmacy",
+        "Grocery",
+      ],
+      links: [
+        {
+          name: "STITBD POS",
+          url: "https://stpos.stitbd.app/",
+        },
+      ],
+    },
+  ],
+
   journey : [
     {
       image: "/journey/a2i.jpg",
@@ -252,6 +327,42 @@ const portfolioData = {
       image: "/journey/microfinance-project.jpg",
       title: "Microfinance Project | PC Lick IT Palli Ltd.",
       description: "Worked on the microfinance project, implementing innovative solutions for financial inclusion.",
+    },
+  ],
+
+  clients: [
+
+    {
+      name: "Ispahani Agro",
+      logo: "/clients/ispahani.png",
+    },
+    {
+      name: "Kachchi Bhai",
+      logo: "/clients/kachchibhai.jpg",
+    },
+    {
+      name: "Khanas Restaurant",
+      logo: "/clients/khanas.jpg",
+    },
+    {
+      name: "Sea Shell Restaurant",
+      logo: "/clients/sea-shell.jpg",
+    },
+    {
+      name: "Al Kabab Restaurant",
+      logo: "/clients/al-kabab.jpg",
+    },
+    {
+      name: "Unicom Textiles Ltd.",
+      logo: "/clients/unicom.png",
+    },
+    {
+      name: "FMC",
+      logo: "/clients/fmc.jpg",
+    },
+    {
+      name: "JCX Developments",
+      logo: "/clients/jcx.jpg",
     },
   ],
 

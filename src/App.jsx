@@ -3,10 +3,12 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
+import OtherProjects from "./components/OtherProjects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Journey from "./components/Journey";
 import Recommendations from "./components/Recommendations";
+import Clients from "./components/Clients";
 
 function App() {
   return (
@@ -25,8 +27,10 @@ function App() {
             <Hero />
             <Experience />
             <Projects />
-            <Journey />
             <Skills />
+            <Clients />
+            <OtherProjects />
+            <Journey />
             <Recommendations />
             <Contact />
             <Footer />
