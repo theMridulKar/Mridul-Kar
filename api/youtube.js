@@ -24,31 +24,28 @@ export default async function handler(req, res) {
 
         const json = parser.parse(xml);
 
-        const entries = json.feed.entry || [];
+        const entries = Array.isArray(json.feed.entry)
+        ? json.feed.entry
+        : json.feed.entry
+            ? [json.feed.entry]
+            : [];
 
         const videos = entries.map((video) => {
-
             const videoId = video["yt:videoId"];
 
             return {
                 id: videoId,
                 title: video.title,
-                link: video.link.href,
+                link: `https://www.youtube.com/watch?v=${videoId}`,
                 published: video.published,
-
                 thumbnail: `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
-
                 description:
-                    typeof video["media:group"]?.["media:description"] === "string"
-                        ? video["media:group"]["media:description"]
-                        : "",
-
-                author:
-                    video.author?.name || "",
-
-                views: null
+                typeof video["media:group"]?.["media:description"] === "string"
+                    ? video["media:group"]["media:description"]
+                    : "",
+                author: video.author?.name || "",
             };
-        });
+            });
 
         res.setHeader(
             "Cache-Control",
