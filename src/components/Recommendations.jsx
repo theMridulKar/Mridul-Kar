@@ -51,7 +51,17 @@ export default function Recommendations() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -80 }}
             transition={{ duration: 0.45 }}
-            className="rounded-3xl border border-[#2a2a2a] bg-[#171717] p-6 md:p-10"
+            className="rounded-3xl
+                        border
+                        border-[#2a2a2a]
+                        bg-[#171717]
+                        p-6
+                        md:p-10
+                        min-h-[420px]
+                        flex
+                        flex-col
+                        justify-between
+                      "
           >
             <Quote
               size={42}
