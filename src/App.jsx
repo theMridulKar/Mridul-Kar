@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Journey from "./components/Journey";
 import Recommendations from "./components/Recommendations";
 import Clients from "./components/Clients";
+import YouTubeSection from "./components/YouTubeSection";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Skills />
             <Clients />
             <OtherProjects />
+            <YouTubeSection />
             <Journey />
             <Recommendations />
             <Contact />
