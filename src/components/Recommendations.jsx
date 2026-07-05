@@ -57,7 +57,7 @@ export default function Recommendations() {
                         bg-[#171717]
                         p-6
                         md:p-10
-                        min-h-[420px]
+                        min-h-[480px]
                         flex
                         flex-col
                         justify-between
