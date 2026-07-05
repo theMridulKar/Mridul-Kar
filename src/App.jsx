@@ -33,7 +33,7 @@ function App() {
             <OtherProjects />
             <YouTubeSection />
             <Journey />
-            <Recommendations />
+            {/* <Recommendations /> */}
             <Contact />
             <Footer />
 
