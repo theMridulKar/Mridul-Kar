@@ -145,6 +145,8 @@ export default function Sidebar() {
         {/* Divider */}
 
         <div className="h-px my-6" />
+        <div className="h-px my-6" />
+        <div className="h-px my-6" />
 
         {/* Contact */}
 

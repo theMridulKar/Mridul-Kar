@@ -16,7 +16,7 @@ function App() {
     <div className="min-h-screen bg-[#111111] text-white">
 
         <div className="max-w-[1600px] mx-auto px-8 py-10">
-
+          
           <div className="grid lg:grid-cols-[380px_1fr] gap-12">
 
           {/* Left Sidebar */}

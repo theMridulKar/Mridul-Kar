@@ -24,8 +24,8 @@ const portfolioData = {
 
   summary : {
     experience: "+5",
-    projects: "+20",
-    clients: "+100"
+    projects: "+40",
+    clients: "+1000"
   },
 
   cards: [

@@ -45,13 +45,7 @@ export default function Hero() {
 
       {/* Stats */}
       <div
-        className="
-        grid
-        grid-cols-3
-        gap-6
-        mt-10
-        "
-      >
+        className="flex flex-wrap gap-8 mt-10">
         <div>
           <h3 className="text-5xl font-black text-white">
             {portfolioData.summary.experience}
@@ -78,10 +72,10 @@ export default function Hero() {
           </h3>
 
           <p className="text-xs text-gray-500 mt-2 uppercase">
-            Clients Served
+            Clients Served (Including SaaS)
           </p>
         </div>
-      </div>
+      </div> 
 
       {/* Feature Cards */}
       <div className="grid md:grid-cols-2 gap-6 mt-12">
