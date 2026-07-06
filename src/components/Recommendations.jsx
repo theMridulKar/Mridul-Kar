@@ -43,25 +43,19 @@ export default function Recommendations() {
         </p>
       </motion.div>
 
-      <div className="relative">
+    <div className="min-h-[480px]">
+      <div className="rounded-3xl border border-[#2a2a2a] bg-[#171717] p-6 md:p-10">
         <AnimatePresence mode="wait">
-          <motion.div
+         <motion.div
             key={current}
-            initial={{ opacity: 0, x: 80 }}
+            layout
+            initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -80 }}
-            transition={{ duration: 0.45 }}
-            className="rounded-3xl
-                        border
-                        border-[#2a2a2a]
-                        bg-[#171717]
-                        p-6
-                        md:p-10
-                        min-h-[480px]
-                        flex
-                        flex-col
-                        justify-between
-                      "
+            exit={{ opacity: 0, x: -40 }}
+            transition={{
+              duration: 0.35,
+              ease: "easeInOut",
+            }}
           >
             <Quote
               size={42}
@@ -134,6 +128,7 @@ export default function Recommendations() {
           ))}
         </div>
       </div>
+    </div>
     </section>
   );
 }
